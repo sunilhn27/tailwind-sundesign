@@ -17,11 +17,11 @@ function RecentWork() {
 
 
                 </div>
-{/* 
+
                 <div className='mt-12  border-2 border-red-500 w-[18rem] h-[18rem] bg-black opacity-40'>
                     <Image src={LandingPage} alt='pic' className='p-4' />
                     
-                </div> */}
+                </div>
             </div>
 
         </section>
