@@ -7,14 +7,13 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'my_bg_image': "url('/AboutBg.png')"
+      },
       fontFamily: {
         sans: ['Poppins', 'ui-sans-serif', 'system-ui'],
       },
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      },
+
     },
   },
   plugins: [],

@@ -3,3 +3,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+bg-url {
+  background-image: url('/src/Asserts/Images/AboutBg.png');
+  /* Other background properties like size, position, etc. */
+}
