@@ -18,7 +18,31 @@ function Contact() {
                     </div>
                 </div>
 
-              
+                <div className='flex flex-col  mx-2'>
+                    <form className='space-y-3'>
+                        <div className='flex space-x-3  '>
+                            <div className='flex flex-col'>
+                                <label className='mb-2'>Your Name</label>
+                                <input className='px-2 rounded-lg w-[17.5rem] py-2 bg-[#393E4680]' placeholder='Name' />
+                            </div>
+
+                            <div className='flex flex-col'>
+                                <label className='mb-2'>Your Email</label>
+                                <input className='px-2 rounded-lg w-[17.5rem]  py-2 bg-[#393E4680]' placeholder='Email' />
+                            </div>
+                        </div>
+                        <div className='flex flex-col '>
+                            <div className='flex flex-col '>
+                                <label className='mb-2'>Your Message</label>
+                                <input className='rounded-lg px-2 bg-[#393E4680] w-[36rem] h-[16rem] ' placeholder='Message ' />
+                            </div>
+
+
+                        </div>
+
+
+                    </form>
+                </div>
 
             </div>
         </section>
