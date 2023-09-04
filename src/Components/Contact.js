@@ -8,8 +8,6 @@ function Contact() {
         <section className='my-32 text-white'>
             <div className='flex flex-col md:flex-row justify-evenly items-center mx-auto'>
 
-
-
                 <div className='flex flex-col'>
                     <div className=''>
                         <h1 className='text-[3.5rem] mb-12 md:-mt-8 md:text-[4.5rem] md:w-[37rem] md:h-[10rem] 2xl:w-[37rem] 2xl:h-[10rem] 2xl:text-[5.1rem]'>Got a project in <span className='text-[#00ADB5] font-bold'>mind? </span></h1>

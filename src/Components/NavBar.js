@@ -36,11 +36,11 @@ function NavBar() {
             <div className='text-white'>
 
                 <nav className='flex md:h-[7rem] justify-between items-center  md:mx-36'>
-                    <div className='hidden md:flex'>
+                    <div className=' md:flex'>
                         <Link className='text-2xl font-semibold' href={"/"}>SunDesign</Link>
                     </div>
 
-                    <div className='flex space-x-1 md:space-x-6 lg:space-x-9'>
+                    <div className='mx-2 flex space-x-1 md:space-x-6 lg:space-x-9'>
                         <AnimatedLinks href={"/home"} text={"Home"} />
                         <AnimatedLinks href={"/aboutme"} text={"About Me"} />
                         <AnimatedLinks href={"/contact"} text={"Contact"} />

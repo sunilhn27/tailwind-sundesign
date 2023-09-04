@@ -1,3 +1,4 @@
+import Footer from '@/Components/Footer'
 import './globals.css'
 import { Inter } from 'next/font/google'
 
@@ -11,7 +12,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-[#222831]` }>{children}</body>
+      <body className={`${inter.className} bg-[#222831]`}>{children}
+        <Footer />
+      </body>
     </html>
   )
 }
